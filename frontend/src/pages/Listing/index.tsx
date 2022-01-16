@@ -28,7 +28,7 @@ function Listing() {
                 setPage(data);
                 console.log(page.content)
             });
-    }, [page.content, pageNumber]);
+    }, [pageNumber]);
 
     const handlePageChange = (newPageNumber : number) => {
         setPageNumber(newPageNumber);
